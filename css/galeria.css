@@ -1,0 +1,22 @@
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(227, 0, 126);
+    color: #fff;
+}
+.centrado2{
+    background-color: rgb(201, 234, 234);
+}
+.centrado1 img{
+    width: 100px;
+    height: 100px;
+}
+.centrado2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer{
+    background-color: rgb(227, 0, 126);
+    height: 35px;
+}

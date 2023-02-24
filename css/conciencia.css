@@ -1,0 +1,21 @@
+.accordion-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.accordion-item p{
+    width: 70%;
+    align-self: center;
+    padding-right: 10px;
+}
+.accordion-item img{
+    width: 30%;
+    height: auto;
+}
+#main{
+    display: flex;
+}
+.accordion-item .accordion-button{
+    color: #E5017D;
+    font-size: larger;
+    font-family: Yanone Kaffeesatz; 
+}

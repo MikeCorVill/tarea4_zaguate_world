@@ -1,0 +1,39 @@
+#main h1{
+    color: #E5017D;
+    margin: 15px 0px 15px 20px;
+}
+#main p{
+    margin: 15px 20px 15px 20px;
+}
+#main h2{
+    background-color: #53C7FD;
+    color: #fff;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Yanone Kaffeesatz; 
+}
+/*---------------------------------------------------------------------*/
+.centrado{
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(227, 0, 126);
+    color: #fff;
+}
+.centrado2{
+    background-color: rgb(201, 234, 234);
+}
+.centrado1 img{
+    width: 100px;
+    height: 100px;
+}
+.centrado2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer{
+    background-color: rgb(227, 0, 126);
+    height: 35px;
+}

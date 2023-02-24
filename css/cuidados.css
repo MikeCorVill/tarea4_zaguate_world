@@ -1,0 +1,33 @@
+#main{
+    width: 95%;
+    margin-left: 22px;
+}
+#main h1{
+    color: #E5017D;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#main h2{
+    color: cadetblue;
+}
+#main h3{
+    color: cadetblue;
+}
+.cuidados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: Yanone Kaffeesatz;
+    font-size: large;
+}
+.card{
+    width: 415px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card img{
+    width: auto;
+    height: 250px;
+}

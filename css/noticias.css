@@ -1,0 +1,23 @@
+#main{
+    margin: 15px 0px 15px 0px;
+
+}
+article{
+    background-color: cadetblue;
+    font-family: Yanone Kaffeesatz; 
+}
+article img{
+    height: 500px;
+    margin-bottom: 20px;
+}
+article a{
+    color: #fff;
+    margin-left: 20px;
+    font-size: xx-large;
+}
+article p{
+    color: #fff;
+    margin-left: 20px;
+    font-size: x-large;
+    width: 95%;
+}

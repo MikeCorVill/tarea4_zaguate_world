@@ -1,0 +1,74 @@
+#menu{
+	width: 95%;
+    background-color: #53C7FD;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75px;
+	font-size: 30px;
+	margin-top: 50px;
+	font-family: Yanone Kaffeesatz; 
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #FFF;
+	text-decoration: none;
+}
+#menu a:hover{
+	color: #E5017D;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 250px;
+	background-color: #53C7FD;
+	padding: 15px 15px 15px 20px;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+/*-----------------------------------------------------*/
+#menu_rapido{
+	width: 95%;
+	height: 200px;
+	background-color: #53C7FD;
+    margin: auto;
+    display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	font-size: 25px;
+	font-family: Yanone Kaffeesatz; 
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+#menu_rapido a{
+	color: #fff;
+	border-right: 3px solid #fff;
+	padding-right: 10px;
+}
+#menu_rapido a.last{
+	border-right: 0px;
+}
+#menu_rapido p{
+	color: #fff;
+}
+/*-----------------------------------------------------*/
+@media screen and (max-width:800px){
+	
+}

@@ -1,0 +1,42 @@
+#main{
+    width: 95%;
+    margin: 0 auto;
+    text-align: justify;
+}
+#main h2{
+    color: #E5017D;
+    font-size: 30px;
+    margin-top: 15px;
+}
+#main label{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 35%;
+}
+#main input{
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+}
+.mb-3{
+    display: flex;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.botones button{
+    width: 150px;
+    height: 50px;
+    font-size: larger;
+    margin-left: 15px;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+form{
+    margin-left: 15px;
+}
